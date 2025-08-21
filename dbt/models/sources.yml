@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Datos crudos de la empresa de aceros largos"
+    database: "{{ env_var('PROJECT_ID') }}"
+    schema: "acero_analysis"
+    tables:
+      - name: cdo_challenge
+        description: "Dataset principal del desafío CDO con datos de 5 años"
+        columns:
+          - name: _PARTITIONTIME
+            description: "Timestamp de partición para optimización de consultas"
+            tests:
+              - not_null
+          - name: _FILE_NAME
+            description: "Nombre del archivo fuente procesado"
+            tests:
+              - not_null
+          - name: _FILE_LOAD_TIME
+            description: "Timestamp de carga del archivo"
+            tests:
+              - not_null
+          # Nota: Las demás columnas se detectarán automáticamente durante la carga

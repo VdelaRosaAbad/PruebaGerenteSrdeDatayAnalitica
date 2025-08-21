@@ -1,0 +1,35 @@
+acero_analysis:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: "{{ env_var('PROJECT_ID') }}"
+      dataset: "acero_analysis_dev"
+      location: US
+      priority: interactive
+      retries: 1
+      timeout_seconds: 300
+      threads: 4
+      
+    prod:
+      type: bigquery
+      method: oauth
+      project: "{{ env_var('PROJECT_ID') }}"
+      dataset: "acero_analysis_prod"
+      location: US
+      priority: batch
+      retries: 3
+      timeout_seconds: 3600
+      threads: 8
+      
+    test:
+      type: bigquery
+      method: oauth
+      project: "{{ env_var('PROJECT_ID') }}"
+      dataset: "acero_analysis_test"
+      location: US
+      priority: interactive
+      retries: 1
+      timeout_seconds: 300
+      threads: 2

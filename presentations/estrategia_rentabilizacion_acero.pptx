@@ -1,0 +1,89 @@
+# Presentación PowerPoint - Estrategia de Rentabilización
+# Empresa de Aceros Largos
+
+## Nota: Este es un archivo placeholder
+## La presentación real debe ser creada en PowerPoint con el siguiente contenido:
+
+### Diapositiva 1: Portada
+- Título: "Estrategia de Rentabilización - Empresa de Aceros Largos"
+- Subtítulo: "Análisis EDA y Plan de Acción para los Próximos 12 Meses"
+- Fecha: [Fecha actual]
+- Equipo: [Nombres del equipo]
+
+### Diapositiva 2: Resumen Ejecutivo
+- Objetivo: Rentabilizar el negocio en los próximos 12 meses
+- Metodología: Análisis EDA de 5 años de datos comerciales
+- Dataset: 2+ mil millones de registros (113.33 GB comprimido)
+- Tecnologías: BigQuery, Python, dbt, GitHub
+
+### Diapositiva 3: Contexto del Negocio
+- Empresa: Aceros largos
+- Periodo analizado: 5 años
+- Desafío: Transformación digital y rentabilización
+- Enfoque: Green Field (sin capacidades de datos preexistentes)
+
+### Diapositiva 4: Hallazgos del EDA
+- Volumen masivo de datos: 2,003,599,864 registros
+- Cobertura temporal completa de 5 años
+- Múltiples fuentes de datos y archivos
+- Patrones temporales identificados
+- Oportunidades de mejora en calidad de datos
+
+### Diapositiva 5: Análisis de Patrones Temporales
+- Estacionalidad mensual identificada
+- Tendencias anuales claras
+- Patrones por día de la semana
+- Volumen de procesamiento diario
+- Archivos fuente y carga
+
+### Diapositiva 6: Calidad de Datos
+- Métricas de integridad
+- Porcentajes de valores nulos
+- Consistencia entre archivos
+- Oportunidades de mejora
+- Plan de limpieza de datos
+
+### Diapositiva 7: Arquitectura de Datos Propuesta
+- BigQuery como data warehouse
+- dbt para transformaciones
+- Python para análisis y automatización
+- GitHub para control de versiones
+- Pipeline de datos automatizado
+
+### Diapositiva 8: Estrategia de Rentabilización
+- Optimización de procesos operativos
+- Mejora en la calidad de datos
+- Automatización de reportes
+- Dashboards en tiempo real
+- Reducción de costos operativos
+
+### Diapositiva 9: Plan de Implementación
+- Fase 1: Infraestructura y carga de datos (Meses 1-2)
+- Fase 2: Transformaciones y modelos dbt (Meses 3-4)
+- Fase 3: Análisis avanzado y dashboards (Meses 5-6)
+- Fase 4: Optimización y monitoreo (Meses 7-12)
+
+### Diapositiva 10: Métricas de Éxito
+- Reducción del 30% en tiempo de procesamiento
+- Mejora del 25% en calidad de datos
+- Automatización del 80% de reportes
+- ROI positivo en 6 meses
+- Escalabilidad para crecimiento futuro
+
+### Diapositiva 11: Riesgos y Mitigaciones
+- Riesgo: Resistencia al cambio
+  Mitigación: Capacitación y comunicación
+- Riesgo: Complejidad técnica
+  Mitigación: Implementación gradual
+- Riesgo: Dependencias externas
+  Mitigación: Planes de contingencia
+
+### Diapositiva 12: Próximos Pasos
+- Aprobación del plan por stakeholders
+- Asignación de recursos y presupuesto
+- Inicio de implementación Fase 1
+- Establecimiento de métricas de seguimiento
+- Comunicación regular del progreso
+
+## Nota: Esta presentación debe ser desarrollada en PowerPoint con gráficos, 
+## visualizaciones y diseño profesional para el panel multidisciplinario.
